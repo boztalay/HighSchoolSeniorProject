@@ -1,0 +1,2 @@
+vhdl work "FPMultiply.vhd"
+vhdl work "FPMultiply_TB.vhd"

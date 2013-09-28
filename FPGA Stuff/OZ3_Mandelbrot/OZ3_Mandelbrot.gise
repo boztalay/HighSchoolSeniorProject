@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="OZ3_Mandelbrot.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="OZ3_Sys_Top_TB_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="OZ3_Sys_Top_TB_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="OZ3_Sys_Top_TB_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1305730285" xil_pn:in_ck="6584233247133974194" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1305730285">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ALU.vhd"/>
+      <outfile xil_pn:name="ConditionBlock.vhd"/>
+      <outfile xil_pn:name="EX.vhd"/>
+      <outfile xil_pn:name="GenReg.vhd"/>
+      <outfile xil_pn:name="GenRegFalling.vhd"/>
+      <outfile xil_pn:name="ID.vhd"/>
+      <outfile xil_pn:name="IF.vhd"/>
+      <outfile xil_pn:name="MEMIO.vhd"/>
+      <outfile xil_pn:name="Mem_Ctrl_TB.vhd"/>
+      <outfile xil_pn:name="OZ3.vhd"/>
+      <outfile xil_pn:name="OZ3_Sys_Top.vhd"/>
+      <outfile xil_pn:name="OZ3_Sys_Top_TB.vhd"/>
+      <outfile xil_pn:name="OZ3_System_TB.vhd"/>
+      <outfile xil_pn:name="OZ3_TB.vhd"/>
+      <outfile xil_pn:name="Output_Extender_TB.vhd"/>
+      <outfile xil_pn:name="RegFile.vhd"/>
+      <outfile xil_pn:name="WB.vhd"/>
+      <outfile xil_pn:name="clk_mgt_tb.vhd"/>
+      <outfile xil_pn:name="data_memory.vhd"/>
+      <outfile xil_pn:name="output_pin_cntl.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1305730285" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="436873167163446359" xil_pn:start_ts="1305730285">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1305730285" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-8562017143464508903" xil_pn:start_ts="1305730285">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1305730285" xil_pn:in_ck="-7344905993439226793" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-2319999399466224698" xil_pn:start_ts="1305730285">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ipcore_dir/program_memory.ngc"/>
+      <outfile xil_pn:name="ipcore_dir/program_memory.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1305730285" xil_pn:in_ck="3675056920853813409" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1305730285">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="ALU.vhd"/>
+      <outfile xil_pn:name="ConditionBlock.vhd"/>
+      <outfile xil_pn:name="EX.vhd"/>
+      <outfile xil_pn:name="GenReg.vhd"/>
+      <outfile xil_pn:name="GenRegFalling.vhd"/>
+      <outfile xil_pn:name="ID.vhd"/>
+      <outfile xil_pn:name="IF.vhd"/>
+      <outfile xil_pn:name="MEMIO.vhd"/>
+      <outfile xil_pn:name="Mem_Ctrl_TB.vhd"/>
+      <outfile xil_pn:name="OZ3.vhd"/>
+      <outfile xil_pn:name="OZ3_Sys_Top.vhd"/>
+      <outfile xil_pn:name="OZ3_Sys_Top_TB.vhd"/>
+      <outfile xil_pn:name="OZ3_System_TB.vhd"/>
+      <outfile xil_pn:name="OZ3_TB.vhd"/>
+      <outfile xil_pn:name="Output_Extender_TB.vhd"/>
+      <outfile xil_pn:name="RegFile.vhd"/>
+      <outfile xil_pn:name="WB.vhd"/>
+      <outfile xil_pn:name="clk_mgt_tb.vhd"/>
+      <outfile xil_pn:name="data_memory.vhd"/>
+      <outfile xil_pn:name="ipcore_dir/program_memory.vhd"/>
+      <outfile xil_pn:name="output_pin_cntl.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1305730293" xil_pn:in_ck="3675056920853813409" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="4751082383511319216" xil_pn:start_ts="1305730285">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="OZ3_Sys_Top_TB_beh.prj"/>
+      <outfile xil_pn:name="OZ3_Sys_Top_TB_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1305730293" xil_pn:in_ck="-5334661322491655824" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="8386260456912662941" xil_pn:start_ts="1305730293">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="OZ3_Sys_Top_TB_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+    </transform>
+  </transforms>
+
+</generated_project>

@@ -1,0 +1,29 @@
+Command line:
+   OZ3_Sys_Top_TB_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  1041
+
+Wed May 18 10:51:35 2011
+
+
+ Elaboration Time: 0.1404 sec
+
+ Current Memory Usage: 492.839 Meg
+
+ Total Signals          : 534
+ Total Nets             : 20555
+ Total Signal Drivers   : 143
+ Total Blocks           : 48
+ Total Primitive Blocks : 32
+ Total Processes        : 96
+ Total Traceable Variables  : 238
+ Total Scalar Nets and Variables : 22023
+Total Line Count : 613
+
+ Total Simulation Time: 0.187201 sec
+
+ Current Memory Usage: 492.839 Meg
+
+Wed May 18 10:52:06 2011
+

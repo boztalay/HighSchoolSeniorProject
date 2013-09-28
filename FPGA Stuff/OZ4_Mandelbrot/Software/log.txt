@@ -1,0 +1,627 @@
+------------------------
+-- OZ-4 ASM assembler --
+------------------------
+
+
+Beginning first pass...
+
+
+Immediate found: 1
+Address: 1
+
+Immediate found: 2
+Address: 2
+
+Immediate found: 3
+Address: 3
+
+Immediate found: 4
+Address: 4
+
+Label found: OUTOUTLOOP
+Address: 16
+Line: 19
+ImmMem Addr: 5
+
+Label found: OUTLOOP
+Address: 16
+Line: 21
+ImmMem Addr: 6
+
+Label found: INLOOP
+Address: 19
+Line: 29
+ImmMem Addr: 7
+
+Label found: INLOOPEXIT
+Address: 37
+Line: 58
+ImmMem Addr: 8
+
+Immediate found: 11
+Address: 9
+
+Label found: OUTLOOPEXIT
+Address: 59
+Line: 91
+ImmMem Addr: 10
+
+Label found: NOWRITE
+Address: 83
+Line: 125
+ImmMem Addr: 11
+
+Label found: END
+Address: 91
+Line: 138
+ImmMem Addr: 12
+
+First pass complete.
+
+Writing file headers...
+
+Writing immediate memory...
+
+Beginning second pass...
+
+Found Instruction:
+Opcode: 010100
+ImmAddr: 000001
+Addr: 1
+Line: 1
+
+Found Instruction:
+Opcode: 010100
+ImmAddr: 000001
+Addr: 2
+Line: 2
+
+Found Instruction:
+Opcode: 010100
+ImmAddr: 000010
+Addr: 3
+Line: 3
+
+Found Instruction:
+Opcode: 010100
+ImmAddr: 000010
+Addr: 4
+Line: 4
+
+Found Instruction:
+Opcode: 010100
+ImmAddr: 000011
+Addr: 5
+Line: 5
+
+Found Instruction:
+Opcode: 010100
+ImmAddr: 000011
+Addr: 6
+Line: 6
+
+Found Instruction:
+Opcode: 110001
+ImmAddr: 000000
+Addr: 7
+Line: 7
+
+Found Instruction:
+Opcode: 110001
+ImmAddr: 000000
+Addr: 8
+Line: 8
+
+Found Instruction:
+Opcode: 110001
+ImmAddr: 000000
+Addr: 9
+Line: 9
+
+Found Instruction:
+Opcode: 010100
+ImmAddr: 000100
+Addr: 10
+Line: 11
+
+Found Instruction:
+Opcode: 010100
+ImmAddr: 000000
+Addr: 11
+Line: 12
+
+Found Instruction:
+Opcode: 110001
+ImmAddr: 000000
+Addr: 12
+Line: 13
+
+Found Instruction:
+Opcode: 010100
+ImmAddr: 000100
+Addr: 13
+Line: 15
+
+Found Instruction:
+Opcode: 010100
+ImmAddr: 000000
+Addr: 14
+Line: 16
+
+Found Instruction:
+Opcode: 010100
+ImmAddr: 000010
+Addr: 15
+Line: 17
+
+Found Instruction:
+Opcode: 010001
+ImmAddr: 000000
+Addr: 16
+Line: 25
+
+Found Instruction:
+Opcode: 010000
+ImmAddr: 000000
+Addr: 17
+Line: 26
+
+Found Instruction:
+Opcode: 011010
+ImmAddr: 000000
+Addr: 18
+Line: 27
+
+Found Instruction:
+Opcode: 011010
+ImmAddr: 000000
+Addr: 19
+Line: 33
+
+Found Instruction:
+Opcode: 010001
+ImmAddr: 000000
+Addr: 20
+Line: 34
+
+Found Instruction:
+Opcode: 000010
+ImmAddr: 000000
+Addr: 21
+Line: 35
+
+Found Instruction:
+Opcode: 010100
+ImmAddr: 000000
+Addr: 22
+Line: 38
+
+Found Instruction:
+Opcode: 000110
+ImmAddr: 000000
+Addr: 23
+Line: 39
+
+Found Instruction:
+Opcode: 010000
+ImmAddr: 000000
+Addr: 24
+Line: 40
+
+Found Instruction:
+Opcode: 010100
+ImmAddr: 000010
+Addr: 25
+Line: 41
+
+Found Instruction:
+Opcode: 010100
+ImmAddr: 001010
+Addr: 26
+Line: 42
+
+Found Instruction:
+Opcode: 100001
+ImmAddr: 000000
+Addr: 27
+Line: 43
+
+Found Instruction:
+Opcode: 000000
+ImmAddr: 000000
+Addr: 28
+Line: 44
+
+Found Instruction:
+Opcode: 000110
+ImmAddr: 000000
+Addr: 29
+Line: 47
+
+Found Instruction:
+Opcode: 010100
+ImmAddr: 000011
+Addr: 30
+Line: 48
+
+Found Instruction:
+Opcode: 010100
+ImmAddr: 001000
+Addr: 31
+Line: 49
+
+Found Instruction:
+Opcode: 100001
+ImmAddr: 000000
+Addr: 32
+Line: 50
+
+Found Instruction:
+Opcode: 000000
+ImmAddr: 000000
+Addr: 33
+Line: 51
+
+Found Instruction:
+Opcode: 010100
+ImmAddr: 000111
+Addr: 34
+Line: 54
+
+Found Instruction:
+Opcode: 100000
+ImmAddr: 000000
+Addr: 35
+Line: 55
+
+Found Instruction:
+Opcode: 000000
+ImmAddr: 000000
+Addr: 36
+Line: 56
+
+Found Instruction:
+Opcode: 010001
+ImmAddr: 000000
+Addr: 37
+Line: 62
+
+Found Instruction:
+Opcode: 010100
+ImmAddr: 000001
+Addr: 38
+Line: 63
+
+Found Instruction:
+Opcode: 000001
+ImmAddr: 000000
+Addr: 39
+Line: 64
+
+Found Instruction:
+Opcode: 000110
+ImmAddr: 000000
+Addr: 40
+Line: 67
+
+Found Instruction:
+Opcode: 010001
+ImmAddr: 000000
+Addr: 41
+Line: 68
+
+Found Instruction:
+Opcode: 010100
+ImmAddr: 000010
+Addr: 42
+Line: 69
+
+Found Instruction:
+Opcode: 010100
+ImmAddr: 001010
+Addr: 43
+Line: 70
+
+Found Instruction:
+Opcode: 100001
+ImmAddr: 000000
+Addr: 44
+Line: 71
+
+Found Instruction:
+Opcode: 000000
+ImmAddr: 000000
+Addr: 45
+Line: 72
+
+Found Instruction:
+Opcode: 010001
+ImmAddr: 000000
+Addr: 46
+Line: 75
+
+Found Instruction:
+Opcode: 010100
+ImmAddr: 001001
+Addr: 47
+Line: 76
+
+Found Instruction:
+Opcode: 000110
+ImmAddr: 000000
+Addr: 48
+Line: 77
+
+Found Instruction:
+Opcode: 010000
+ImmAddr: 000000
+Addr: 49
+Line: 78
+
+Found Instruction:
+Opcode: 010001
+ImmAddr: 000000
+Addr: 50
+Line: 79
+
+Found Instruction:
+Opcode: 010100
+ImmAddr: 000010
+Addr: 51
+Line: 80
+
+Found Instruction:
+Opcode: 010100
+ImmAddr: 001010
+Addr: 52
+Line: 81
+
+Found Instruction:
+Opcode: 100001
+ImmAddr: 000000
+Addr: 53
+Line: 82
+
+Found Instruction:
+Opcode: 000000
+ImmAddr: 000000
+Addr: 54
+Line: 83
+
+Found Instruction:
+Opcode: 010001
+ImmAddr: 000000
+Addr: 55
+Line: 86
+
+Found Instruction:
+Opcode: 010100
+ImmAddr: 000101
+Addr: 56
+Line: 87
+
+Found Instruction:
+Opcode: 100000
+ImmAddr: 000000
+Addr: 57
+Line: 88
+
+Found Instruction:
+Opcode: 000000
+ImmAddr: 000000
+Addr: 58
+Line: 89
+
+Found Instruction:
+Opcode: 010001
+ImmAddr: 000000
+Addr: 59
+Line: 95
+
+Found Instruction:
+Opcode: 010000
+ImmAddr: 000000
+Addr: 60
+Line: 96
+
+Found Instruction:
+Opcode: 010100
+ImmAddr: 000010
+Addr: 61
+Line: 97
+
+Found Instruction:
+Opcode: 010001
+ImmAddr: 000000
+Addr: 62
+Line: 98
+
+Found Instruction:
+Opcode: 010100
+ImmAddr: 000000
+Addr: 63
+Line: 101
+
+Found Instruction:
+Opcode: 000110
+ImmAddr: 000000
+Addr: 64
+Line: 102
+
+Found Instruction:
+Opcode: 010000
+ImmAddr: 000000
+Addr: 65
+Line: 103
+
+Found Instruction:
+Opcode: 010000
+ImmAddr: 000000
+Addr: 66
+Line: 104
+
+Found Instruction:
+Opcode: 010100
+ImmAddr: 000010
+Addr: 67
+Line: 105
+
+Found Instruction:
+Opcode: 010100
+ImmAddr: 001011
+Addr: 68
+Line: 106
+
+Found Instruction:
+Opcode: 100001
+ImmAddr: 000000
+Addr: 69
+Line: 107
+
+Found Instruction:
+Opcode: 000000
+ImmAddr: 000000
+Addr: 70
+Line: 108
+
+Found Instruction:
+Opcode: 010001
+ImmAddr: 000000
+Addr: 71
+Line: 111
+
+Found Instruction:
+Opcode: 010101
+ImmAddr: 000000
+Addr: 72
+Line: 112
+
+Found Instruction:
+Opcode: 010100
+ImmAddr: 000000
+Addr: 73
+Line: 113
+
+Found Instruction:
+Opcode: 110000
+ImmAddr: 000000
+Addr: 74
+Line: 114
+
+Found Instruction:
+Opcode: 010101
+ImmAddr: 000000
+Addr: 75
+Line: 115
+
+Found Instruction:
+Opcode: 010011
+ImmAddr: 000000
+Addr: 76
+Line: 116
+
+Found Instruction:
+Opcode: 110001
+ImmAddr: 000000
+Addr: 77
+Line: 117
+
+Found Instruction:
+Opcode: 010100
+ImmAddr: 000001
+Addr: 78
+Line: 118
+
+Found Instruction:
+Opcode: 000001
+ImmAddr: 000000
+Addr: 79
+Line: 119
+
+Found Instruction:
+Opcode: 010100
+ImmAddr: 000000
+Addr: 80
+Line: 120
+
+Found Instruction:
+Opcode: 110001
+ImmAddr: 000000
+Addr: 81
+Line: 121
+
+Found Instruction:
+Opcode: 010001
+ImmAddr: 000000
+Addr: 82
+Line: 122
+
+Found Instruction:
+Opcode: 010001
+ImmAddr: 000000
+Addr: 83
+Line: 127
+
+Found Instruction:
+Opcode: 010100
+ImmAddr: 000001
+Addr: 84
+Line: 128
+
+Found Instruction:
+Opcode: 000001
+ImmAddr: 000000
+Addr: 85
+Line: 129
+
+Found Instruction:
+Opcode: 010100
+ImmAddr: 000000
+Addr: 86
+Line: 130
+
+Found Instruction:
+Opcode: 010011
+ImmAddr: 000000
+Addr: 87
+Line: 131
+
+Found Instruction:
+Opcode: 010100
+ImmAddr: 000101
+Addr: 88
+Line: 134
+
+Found Instruction:
+Opcode: 100000
+ImmAddr: 000000
+Addr: 89
+Line: 135
+
+Found Instruction:
+Opcode: 000000
+ImmAddr: 000000
+Addr: 90
+Line: 136
+
+Found Instruction:
+Opcode: 010100
+ImmAddr: 001100
+Addr: 91
+Line: 139
+
+Found Instruction:
+Opcode: 100000
+ImmAddr: 000000
+Addr: 92
+Line: 140
+
+Found Instruction:
+Opcode: 000000
+ImmAddr: 000000
+Addr: 93
+Line: 141
+
+Complete! Make sure you weren't stupid, because I was too lazy to make real error catching!
+
+

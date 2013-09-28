@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/OZ4_Mandelbrot_top.xst" -ofn "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/OZ4_Mandelbrot_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc OZ4_Mandelbrot.ucf -p xc3s1200e-fg320-4 "OZ4_Mandelbrot_top.ngc" OZ4_Mandelbrot_top.ngd  
+map -intstyle ise -p xc3s1200e-fg320-4 -cm area -ir off -pr off -c 100 -o OZ4_Mandelbrot_top_map.ncd OZ4_Mandelbrot_top.ngd OZ4_Mandelbrot_top.pcf 
+par -w -intstyle ise -ol high -xe n -t 1 OZ4_Mandelbrot_top_map.ncd OZ4_Mandelbrot_top.ncd OZ4_Mandelbrot_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml OZ4_Mandelbrot_top.twx OZ4_Mandelbrot_top.ncd -o OZ4_Mandelbrot_top.twr OZ4_Mandelbrot_top.pcf -ucf OZ4_Mandelbrot.ucf 
+bitgen -intstyle ise -f OZ4_Mandelbrot_top.ut OZ4_Mandelbrot_top.ncd 
+xst -intstyle ise -ifn "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/OZ4_Mandelbrot_top.xst" -ofn "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/OZ4_Mandelbrot_top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -uc OZ4_Mandelbrot.ucf -p xc3s500e-fg320-4 "OZ4_Mandelbrot_top.ngc" OZ4_Mandelbrot_top.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o OZ4_Mandelbrot_top_map.ncd OZ4_Mandelbrot_top.ngd OZ4_Mandelbrot_top.pcf 
+par -w -intstyle ise -ol high -xe n -t 1 OZ4_Mandelbrot_top_map.ncd OZ4_Mandelbrot_top.ncd OZ4_Mandelbrot_top.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml OZ4_Mandelbrot_top.twx OZ4_Mandelbrot_top.ncd -o OZ4_Mandelbrot_top.twr OZ4_Mandelbrot_top.pcf -ucf OZ4_Mandelbrot.ucf 
+bitgen -intstyle ise -f OZ4_Mandelbrot_top.ut OZ4_Mandelbrot_top.ncd 

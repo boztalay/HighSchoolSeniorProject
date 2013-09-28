@@ -1,0 +1,17 @@
+# Output products list for <program_memory>
+_xmsgs\pn_parser.xmsgs
+blk_mem_gen_ds512.pdf
+blk_mem_gen_readme.txt
+program_memory.asy
+program_memory.gise
+program_memory.mif
+program_memory.ngc
+program_memory.sym
+program_memory.v
+program_memory.veo
+program_memory.vhd
+program_memory.vho
+program_memory.xco
+program_memory.xise
+program_memory_flist.txt
+program_memory_xmdf.tcl

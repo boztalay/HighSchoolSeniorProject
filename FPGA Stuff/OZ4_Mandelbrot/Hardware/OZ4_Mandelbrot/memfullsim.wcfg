@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/sim_mem_top_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="fixed_pkg" />
+            <top_module name="glbl" />
+            <top_module name="math_real" />
+            <top_module name="numeric_std" />
+            <top_module name="sim_mem_top" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_textio" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="textio" />
+            <top_module name="vcomponents" />
+            <top_module name="vl_types" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="21" />
+   <wvobject fp_name="/sim_mem_top/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_mem_top/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_mem_top/ram_data_bus" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ram_data_bus[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_data_bus[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_mem_top/ram_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ram_addr[22:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_addr[22:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_mem_top/ram_oe" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ram_oe</obj_property>
+      <obj_property name="ObjectShortName">ram_oe</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_mem_top/ram_we" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ram_we</obj_property>
+      <obj_property name="ObjectShortName">ram_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_mem_top/ram_ub" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ram_ub</obj_property>
+      <obj_property name="ObjectShortName">ram_ub</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_mem_top/ram_lb" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ram_lb</obj_property>
+      <obj_property name="ObjectShortName">ram_lb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_mem_top/ram_ce" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ram_ce</obj_property>
+      <obj_property name="ObjectShortName">ram_ce</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_mem_top/hsync" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">hsync</obj_property>
+      <obj_property name="ObjectShortName">hsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_mem_top/vsync" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">vsync</obj_property>
+      <obj_property name="ObjectShortName">vsync</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_mem_top/red" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">red[2:0]</obj_property>
+      <obj_property name="ObjectShortName">red[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_mem_top/green" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">green[2:0]</obj_property>
+      <obj_property name="ObjectShortName">green[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_mem_top/blue" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">blue[1:0]</obj_property>
+      <obj_property name="ObjectShortName">blue[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_mem_top/leds" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">leds[7:0]</obj_property>
+      <obj_property name="ObjectShortName">leds[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_mem_top/seg7_sigs" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">seg7_sigs[6:0]</obj_property>
+      <obj_property name="ObjectShortName">seg7_sigs[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_mem_top/anodes" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">anodes[3:0]</obj_property>
+      <obj_property name="ObjectShortName">anodes[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_mem_top/clk_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_mem_top/uut/vidon" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">vidon</obj_property>
+      <obj_property name="ObjectShortName">vidon</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_mem_top/uut/vid_ctl/ram_addr_reg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ram_addr_reg[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_addr_reg[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sim_mem_top/uut/vid_ctl/ram_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ram_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ram_addr[31:0]</obj_property>
+   </wvobject>
+</wave_config>

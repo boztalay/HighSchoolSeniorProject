@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Ben\Desktop\Folders\Projects\Personal\Senior Project\FPGA Stuff\OZ4_Mandelbrot\Hardware\FPMultiply\FPMultiply_top.ncd
+OUTFILE=C:\Users\Ben\Desktop\Folders\Projects\Personal\Senior Project\FPGA Stuff\OZ4_Mandelbrot\Hardware\FPMultiply\FPMultiply_top.bit
+FAMILY=Spartan3E
+PART=xc3s500e-5fg320
+WORKINGDIR=C:\Users\Ben\Desktop\Folders\Projects\Personal\Senior Project\FPGA Stuff\OZ4_Mandelbrot\Hardware\FPMultiply
+LICENSE=WebPack
+USER_INFO=175191238_0_0_536

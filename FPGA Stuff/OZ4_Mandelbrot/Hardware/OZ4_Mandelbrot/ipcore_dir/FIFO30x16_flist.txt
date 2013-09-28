@@ -1,0 +1,16 @@
+# Output products list for <FIFO30x16>
+FIFO30x16.asy
+FIFO30x16.gise
+FIFO30x16.ngc
+FIFO30x16.sym
+FIFO30x16.v
+FIFO30x16.veo
+FIFO30x16.vhd
+FIFO30x16.vho
+FIFO30x16.xco
+FIFO30x16.xise
+FIFO30x16_flist.txt
+FIFO30x16_xmdf.tcl
+_xmsgs\pn_parser.xmsgs
+fifo_generator_readme.txt
+fifo_generator_ug175.pdf

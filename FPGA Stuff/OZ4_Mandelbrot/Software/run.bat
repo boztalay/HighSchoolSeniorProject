@@ -1,0 +1,1 @@
+OZ4_ASM "./3-OZ4-Primes/3-OZ4-Primes.oz" "./3-OZ4-Primes/3-OZ4-Primes.coe" "./3-OZ4-Primes/3-OZ4-Primes.vhd"

@@ -1,0 +1,30 @@
+Command line:
+   FPMultiply_TB_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  65520
+
+Mon Apr 25 14:29:53 2011
+
+
+ Elaboration Time: 0.0312 sec
+
+ Current Memory Usage: 500.335 Meg
+
+ Total Signals          : 37
+ Total Nets             : 2361
+ Total Signal Drivers   : 10
+ Total Blocks           : 6
+ Total Primitive Blocks : 5
+ Total Processes        : 7
+ Total Traceable Variables  : 10
+ Total Scalar Nets and Variables : 2739
+Total Line Count : 117
+Total Line Count : 117
+
+ Total Simulation Time: 0.0468 sec
+
+ Current Memory Usage: 500.335 Meg
+
+Mon Apr 25 14:35:31 2011
+

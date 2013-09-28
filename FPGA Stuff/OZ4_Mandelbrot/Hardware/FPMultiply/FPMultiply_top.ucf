@@ -1,0 +1,17 @@
+NET "result<0>" LOC = "J14";
+NET "result<1>" LOC = "J15";
+NET "result<2>" LOC = "K15";
+NET "result<3>" LOC = "K14";
+NET "result<4>" LOC = "E17";
+NET "result<5>" LOC = "P15";
+NET "result<6>" LOC = "F4";
+NET "result<7>" LOC = "R4";
+
+NET "switches<0>" LOC = "G18";
+NET "switches<1>" LOC = "H18";
+NET "switches<2>" LOC = "K18";
+NET "switches<3>" LOC = "K17";
+NET "switches<4>" LOC = "L14";
+NET "switches<5>" LOC = "L13";
+NET "switches<6>" LOC = "N17";
+NET "switches<7>" LOC = "R17";

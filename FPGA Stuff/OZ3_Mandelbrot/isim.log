@@ -1,0 +1,24 @@
+ISim log file
+Running: C:\Users\Ben\Desktop\Folders\Projects\Personal\Senior Project\FPGA Stuff\OZ3_Mandelbrot\OZ3_Sys_Top_TB_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ3_Mandelbrot/OZ3_Sys_Top_TB_isim_beh.wdb 
+ISim O.40d (signature 0x79f3f3a8)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /oz3_sys_top_tb/uut/CPU/IF_stage/ : Warning: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, the result will be 'X'(es).
+at 0 ps, Instance /oz3_sys_top_tb/uut/CPU/ID_stage/rfile/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /oz3_sys_top_tb/uut/CPU/ID_stage/rfile/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /oz3_sys_top_tb/uut/CPU/ID_stage/rfile/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /oz3_sys_top_tb/uut/dmem/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+Finished circuit initialization process.
+at 0 ps, Instance /oz3_sys_top_tb/uut/CPU/ID_stage/rfile/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /oz3_sys_top_tb/uut/CPU/ID_stage/rfile/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /oz3_sys_top_tb/uut/dmem/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 0 ps, Instance /oz3_sys_top_tb/uut/CPU/ID_stage/rfile/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 20 ns(1), Instance /oz3_sys_top_tb/uut/CPU/ID_stage/rfile/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.
+at 20 ns(1), Instance /oz3_sys_top_tb/uut/pmem/U0/native_mem_module/mem_module/ : Warning: CONV_INTEGER: There is an 'U'|'X'|'W'|'Z'|'-' in an arithmetic operand, and it has been converted to 0.

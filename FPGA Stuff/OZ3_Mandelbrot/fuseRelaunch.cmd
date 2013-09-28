@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ3_Mandelbrot/OZ3_Sys_Top_TB_isim_beh.exe" -prj "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ3_Mandelbrot/OZ3_Sys_Top_TB_beh.prj" "work.OZ3_Sys_Top_TB" 

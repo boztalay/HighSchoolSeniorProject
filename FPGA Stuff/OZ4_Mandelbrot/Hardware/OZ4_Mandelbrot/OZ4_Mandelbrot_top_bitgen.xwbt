@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\Ben\Desktop\Folders\Projects\Personal\Senior Project\FPGA Stuff\OZ4_Mandelbrot\Hardware\OZ4_Mandelbrot\OZ4_Mandelbrot_top.ncd
+OUTFILE=C:\Users\Ben\Desktop\Folders\Projects\Personal\Senior Project\FPGA Stuff\OZ4_Mandelbrot\Hardware\OZ4_Mandelbrot\OZ4_Mandelbrot_top.bit
+FAMILY=Spartan3E
+PART=xc3s500e-4fg320
+WORKINGDIR=C:\Users\Ben\Desktop\Folders\Projects\Personal\Senior Project\FPGA Stuff\OZ4_Mandelbrot\Hardware\OZ4_Mandelbrot
+LICENSE=WebPack
+USER_INFO=175191238_0_0_536

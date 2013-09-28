@@ -1,0 +1,64 @@
+Running: C:\Xilinx\13.1\ISE_DS\ISE\bin\nt\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ3_Mandelbrot/OZ3_Sys_Top_TB_isim_beh.exe -prj C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ3_Mandelbrot/OZ3_Sys_Top_TB_beh.prj work.OZ3_Sys_Top_TB 
+ISim O.40d (signature 0x79f3f3a8)
+Number of CPUs detected in this system: 2
+Turning on mult-threading, number of parallel sub-compilation jobs: 4 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ3_Mandelbrot/ipcore_dir/program_memory.vhd" into library work
+Parsing VHDL file "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ3_Mandelbrot/GenReg.vhd" into library work
+Parsing VHDL file "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ3_Mandelbrot/RegFile.vhd" into library work
+Parsing VHDL file "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ3_Mandelbrot/GenRegFalling.vhd" into library work
+Parsing VHDL file "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ3_Mandelbrot/ConditionBlock.vhd" into library work
+Parsing VHDL file "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ3_Mandelbrot/ALU.vhd" into library work
+Parsing VHDL file "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ3_Mandelbrot/WB.vhd" into library work
+Parsing VHDL file "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ3_Mandelbrot/output_pin_cntl.vhd" into library work
+Parsing VHDL file "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ3_Mandelbrot/MEMIO.vhd" into library work
+Parsing VHDL file "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ3_Mandelbrot/IF.vhd" into library work
+Parsing VHDL file "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ3_Mandelbrot/ID.vhd" into library work
+Parsing VHDL file "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ3_Mandelbrot/EX.vhd" into library work
+Parsing VHDL file "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ3_Mandelbrot/OZ3.vhd" into library work
+Parsing VHDL file "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ3_Mandelbrot/data_memory.vhd" into library work
+Parsing VHDL file "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ3_Mandelbrot/OZ3_Sys_Top.vhd" into library work
+Parsing VHDL file "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ3_Mandelbrot/OZ3_Sys_Top_TB.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 107608 KB
+Fuse CPU Usage: 763 ms
+Using precompiled package standard from library std
+Using precompiled package std_logic_1164 from library ieee
+Using precompiled package std_logic_arith from library ieee
+Using precompiled package std_logic_unsigned from library ieee
+Using precompiled package textio from library std
+Using precompiled package std_logic_textio from library ieee
+Compiling package vcomponents
+Compiling architecture behavioral of entity genreg [\GenReg(23)\]
+Compiling architecture behavioral of entity genregfalling [\GenRegFalling(32)\]
+Compiling architecture behavioral of entity ifetch [ifetch_default]
+Compiling architecture behavioral of entity regfile [regfile_default]
+Compiling architecture behavioral of entity genreg [\GenReg(32)\]
+Compiling architecture behavioral of entity id [id_default]
+Compiling architecture behavioral of entity alu [alu_default]
+Compiling architecture behavioral of entity genreg [\GenReg(4)\]
+Compiling architecture behavioral of entity conditionblock [conditionblock_default]
+Compiling architecture behavioral of entity genreg [\GenReg(12)\]
+Compiling architecture behavioral of entity ex [ex_default]
+Compiling architecture behavioral of entity genreg [\GenReg(21)\]
+Compiling architecture behavioral of entity memio [memio_default]
+Compiling architecture behavioral of entity genreg [\GenReg(6)\]
+Compiling architecture behavioral of entity wb [wb_default]
+Compiling architecture behavioral of entity output_pin_cntl [output_pin_cntl_default]
+Compiling architecture behavioral of entity genreg [\GenReg(16)\]
+Compiling architecture behavioral of entity oz3 [oz3_default]
+Compiling architecture behavioral of entity data_memory [data_memory_default]
+Compiling architecture output_stage_behavioral of entity blk_mem_gen_v6_1_output_stage [\BLK_MEM_GEN_V6_1_output_stage("...]
+Compiling architecture softecc_output_reg_stage_behavioral of entity blk_mem_gen_v6_1_softecc_output_reg_stage [\BLK_MEM_GEN_V6_1_softecc_output...]
+Compiling architecture mem_module_behavioral of entity blk_mem_gen_v6_1_mem_module [\BLK_MEM_GEN_V6_1_mem_module("bl...]
+Compiling architecture behavioral of entity blk_mem_gen_v6_1 [\BLK_MEM_GEN_V6_1("blk_mem_gen_v...]
+Compiling architecture program_memory_a of entity program_memory [program_memory_default]
+Compiling architecture behavioral of entity oz3_sys_top [oz3_sys_top_default]
+Compiling architecture behavior of entity oz3_sys_top_tb
+Time Resolution for simulation is 1ps.
+Waiting for 24 sub-compilation(s) to finish...
+Compiled 58 VHDL Units
+Built simulation executable C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ3_Mandelbrot/OZ3_Sys_Top_TB_isim_beh.exe
+Fuse Memory Usage: 116548 KB
+Fuse CPU Usage: 1278 ms

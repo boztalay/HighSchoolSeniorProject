@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/FPMultiply/FPMultiply_TB_isim_beh.exe" -prj "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/FPMultiply/FPMultiply_TB_beh.prj" "work.FPMultiply_TB" 

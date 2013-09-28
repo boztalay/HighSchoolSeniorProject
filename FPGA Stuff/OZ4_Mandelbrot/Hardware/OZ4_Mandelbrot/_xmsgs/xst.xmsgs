@@ -1,0 +1,1858 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="2211" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/OZ4_Mandelbrot_top.vhd</arg>&quot; line <arg fmt="%d" index="2">234</arg>: Instantiating black box module &lt;<arg fmt="%s" index="3">program_memory</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/OZ4_Mandelbrot_top.vhd</arg>&quot; line <arg fmt="%d" index="2">284</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">hc</arg>&apos; of component &apos;<arg fmt="%s" index="4">vga_640x480</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/OZ4_Mandelbrot_top.vhd</arg>&quot; line <arg fmt="%d" index="2">284</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">vc</arg>&apos; of component &apos;<arg fmt="%s" index="4">vga_640x480</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/OZ4_Mandelbrot_top.vhd</arg>&quot; line <arg fmt="%d" index="2">284</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">pix</arg>&apos; of component &apos;<arg fmt="%s" index="4">vga_640x480</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="819" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/memory_controller.vhd</arg>&quot; line <arg fmt="%d" index="2">97</arg>: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+<arg fmt="%s" index="3">&lt;big_reg_full&gt;</arg>
+</msg>
+
+<msg type="warning" file="Xst" num="819" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/memory_controller.vhd</arg>&quot; line <arg fmt="%d" index="2">127</arg>: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+<arg fmt="%s" index="3">&lt;big_reg&gt;</arg>
+</msg>
+
+<msg type="warning" file="Xst" num="819" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/video_controller.vhd</arg>&quot; line <arg fmt="%d" index="2">88</arg>: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+<arg fmt="%s" index="3">&lt;clk_div&lt;21&gt;&gt;</arg>
+</msg>
+
+<msg type="info" file="Xst" num="1561" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/video_controller.vhd</arg>&quot; line <arg fmt="%d" index="2">111</arg>: Mux is complete : default of case is discarded
+</msg>
+
+<msg type="warning" file="Xst" num="819" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/video_controller.vhd</arg>&quot; line <arg fmt="%d" index="2">85</arg>: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+<arg fmt="%s" index="3">&lt;pre_colors&gt;</arg>
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">address&lt;31:6&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="info" file="Xst" num="738" delta="old" >HDL ADVISOR - <arg fmt="%d" index="1">2048</arg> flip-flops were inferred for signal &lt;<arg fmt="%s" index="2">memory_data</arg>&gt;. You may be trying to describe a RAM in a way that is incompatible with block and distributed RAM resources available on Xilinx devices, or with a specific template that is not supported. Please review the Xilinx resources documentation and the XST user manual for coding guidelines. Taking advantage of RAM resources will lead to improved device usage and reduced synthesis time.
+</msg>
+
+<msg type="warning" file="Xst" num="1781" delta="old" >Signal &lt;<arg fmt="%s" index="1">immediate_data&lt;63:25&gt;</arg>&gt; is used but never assigned. Tied to default value.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">write_data&lt;31:23&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">read_addr&lt;31:23&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">write_clk</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">4</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">to_decoder</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="737" delta="old" >Found <arg fmt="%d" index="1">4</arg>-bit latch for signal &lt;<arg fmt="%s" index="2">anodes</arg>&gt;. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">stack_e1_r&lt;31:2&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">stack_e0_r</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="738" delta="old" >HDL ADVISOR - <arg fmt="%d" index="1">416</arg> flip-flops were inferred for signal &lt;<arg fmt="%s" index="2">stg_elements</arg>&gt;. You may be trying to describe a RAM in a way that is incompatible with block and distributed RAM resources available on Xilinx devices, or with a specific template that is not supported. Please review the Xilinx resources documentation and the XST user manual for coding guidelines. Taking advantage of RAM resources will lead to improved device usage and reduced synthesis time.
+</msg>
+
+<msg type="info" file="Xst" num="738" delta="old" >HDL ADVISOR - <arg fmt="%d" index="1">512</arg> flip-flops were inferred for signal &lt;<arg fmt="%s" index="2">stg_elements</arg>&gt;. You may be trying to describe a RAM in a way that is incompatible with block and distributed RAM resources available on Xilinx devices, or with a specific template that is not supported. Please review the Xilinx resources documentation and the XST user manual for coding guidelines. Taking advantage of RAM resources will lead to improved device usage and reduced synthesis time.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">opins_data&lt;31:1&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">B_in&lt;15:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="647" delta="old" >Input &lt;<arg fmt="%s" index="1">A_in&lt;15:0&gt;</arg>&gt; is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">instruction_addr&lt;31:9&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">clk12</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="old" >Signal &lt;<arg fmt="%s" index="1">OZ4_opins&lt;7:6&gt;</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="info" file="Xst" num="1767" delta="old" >HDL ADVISOR - Resource sharing has identified that some arithmetic operations in this design can share the same physical resources for reduced device utilization. For improved clock frequency you may try to disable resource sharing.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">ipins_reg_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">IO</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">39 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;ipins_reg_1&gt; &lt;ipins_reg_2&gt; &lt;ipins_reg_3&gt; &lt;ipins_reg_4&gt; &lt;ipins_reg_5&gt; &lt;ipins_reg_6&gt; &lt;ipins_reg_7&gt; &lt;iport_reg_0&gt; &lt;iport_reg_1&gt; &lt;iport_reg_2&gt; &lt;iport_reg_3&gt; &lt;iport_reg_4&gt; &lt;iport_reg_5&gt; &lt;iport_reg_6&gt; &lt;iport_reg_7&gt; &lt;iport_reg_8&gt; &lt;iport_reg_9&gt; &lt;iport_reg_10&gt; &lt;iport_reg_11&gt; &lt;iport_reg_12&gt; &lt;iport_reg_13&gt; &lt;iport_reg_14&gt; &lt;iport_reg_15&gt; &lt;iport_reg_16&gt; &lt;iport_reg_17&gt; &lt;iport_reg_18&gt; &lt;iport_reg_19&gt; &lt;iport_reg_20&gt; &lt;iport_reg_21&gt; &lt;iport_reg_22&gt; &lt;iport_reg_23&gt; &lt;iport_reg_24&gt; &lt;iport_reg_25&gt; &lt;iport_reg_26&gt; &lt;iport_reg_27&gt; &lt;iport_reg_28&gt; &lt;iport_reg_29&gt; &lt;iport_reg_30&gt; &lt;iport_reg_31&gt; </arg>
+</msg>
+
+<msg type="warning" file="Xst" num="1710" delta="old" >FF/Latch &lt;<arg fmt="%s" index="1">ipins_reg_0</arg>&gt; (without init value) has a constant value of <arg fmt="%d" index="2">0</arg> in block &lt;<arg fmt="%s" index="3">IO</arg>&gt;. This FF/Latch will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">addr_r_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mem_ctl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">addr_r_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mem_ctl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">addr_r_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mem_ctl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">addr_r_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mem_ctl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">addr_r_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mem_ctl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">addr_r_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mem_ctl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">addr_r_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mem_ctl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">addr_r_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mem_ctl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">addr_r_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mem_ctl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">addr_r_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mem_ctl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">addr_r_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mem_ctl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">addr_r_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mem_ctl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">addr_r_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mem_ctl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">addr_r_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mem_ctl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">addr_r_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mem_ctl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">addr_r_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mem_ctl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">addr_r_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mem_ctl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">addr_r_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mem_ctl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">addr_r_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mem_ctl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">addr_r_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mem_ctl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">addr_r_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mem_ctl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">addr_r_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mem_ctl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">addr_r_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mem_ctl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">addr_r_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mem_ctl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">addr_r_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mem_ctl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">addr_r_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">mem_ctl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">oport_reg_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">IO</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">oport_reg_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">IO</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">oport_reg_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">IO</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">oport_reg_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">IO</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">oport_reg_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">IO</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">oport_reg_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">IO</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">oport_reg_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">IO</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">oport_reg_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">IO</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">oport_reg_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">IO</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">iport_reg</arg>&lt;<arg fmt="%d" index="2">31</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">IO_ctl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2404" delta="old" > FFs/Latches &lt;<arg fmt="%s" index="1">ipins_reg</arg>&lt;<arg fmt="%d" index="2">7</arg>:<arg fmt="%d" index="3">0</arg>&gt;&gt; (without init value) have a constant value of <arg fmt="%c" index="4">0</arg> in block &lt;<arg fmt="%s" index="5">IO_ctl</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl_unit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl_unit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl_unit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl_unit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl_unit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl_unit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl_unit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl_unit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl_unit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl_unit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl_unit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl_unit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl_unit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl_unit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl_unit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl_unit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl_unit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl_unit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl_unit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl_unit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl_unit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl_unit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl_unit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl_unit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl_unit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl_unit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl_unit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl_unit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl_unit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">stack_e1_r_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">ctl_unit</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">clk_div_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">video_controller</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">clk_div_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">video_controller</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">clk_div_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">video_controller</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">clkr/clk_count_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">clkr/clk_count_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">clkr/clk_count_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">clkr/clk_count_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">clkr/clk_count_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">clkr/clk_count_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">clkr/clk_count_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">vig_gen/pix_count_next_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">vig_gen/pix_count_next_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">vig_gen/pix_count_next_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">vig_gen/pix_count_next_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">vig_gen/pix_count_next_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">vig_gen/pix_count_next_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">vig_gen/pix_count_next_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">vig_gen/pix_count_next_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">vig_gen/pix_count_next_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">vig_gen/pix_count_next_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">vig_gen/pix_count_next_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">vig_gen/pix_count_next_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">vig_gen/pix_count_next_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">vig_gen/pix_count_next_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">vig_gen/pix_count_next_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">vig_gen/pix_count_next_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">vig_gen/pix_count_next_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">vig_gen/pix_count_next_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">vig_gen/pix_count_next_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">vig_gen/pix_count_next_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">vig_gen/pix_count_next_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">vig_gen/pix_count_next_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">vig_gen/pix_count_next_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">vig_gen/pix_count_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">vig_gen/pix_count_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">vig_gen/pix_count_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">vig_gen/pix_count_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">vig_gen/pix_count_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">vig_gen/pix_count_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">vig_gen/pix_count_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">vig_gen/pix_count_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">vig_gen/pix_count_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">vig_gen/pix_count_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">vig_gen/pix_count_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">vig_gen/pix_count_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">vig_gen/pix_count_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">vig_gen/pix_count_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">vig_gen/pix_count_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">vig_gen/pix_count_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">vig_gen/pix_count_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">vig_gen/pix_count_5</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">vig_gen/pix_count_4</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">vig_gen/pix_count_3</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">vig_gen/pix_count_2</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">vig_gen/pix_count_1</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">vig_gen/pix_count_0</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">vig_gen/pix_count_clr</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/IO/opins_reg_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/IO/oport_reg_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/IO/oport_reg_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/IO/oport_reg_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/IO/oport_reg_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/IO/oport_reg_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/IO/oport_reg_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/IO/oport_reg_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/IO/oport_reg_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/IO/oport_reg_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/IO/opins_reg_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/mem_ctl/addr_r_6</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/mem_ctl/addr_r_7</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/mem_ctl/addr_r_8</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/mem_ctl/addr_r_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/mem_ctl/addr_r_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/mem_ctl/addr_r_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/mem_ctl/addr_r_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/mem_ctl/addr_r_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/mem_ctl/addr_r_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/mem_ctl/addr_r_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/mem_ctl/addr_r_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/mem_ctl/addr_r_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/mem_ctl/addr_r_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/mem_ctl/addr_r_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/mem_ctl/addr_r_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/mem_ctl/addr_r_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/mem_ctl/addr_r_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/mem_ctl/addr_r_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/mem_ctl/addr_r_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/mem_ctl/addr_r_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/mem_ctl/addr_r_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/mem_ctl/addr_r_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/mem_ctl/addr_r_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/mem_ctl/addr_r_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/mem_ctl/addr_r_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/mem_ctl/addr_r_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_14_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_14_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_14_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_14_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_14_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_14_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_14_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_14_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_14_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_14_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_14_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_14_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_14_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_14_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_14_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_14_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_14_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_14_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_14_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_14_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_14_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_14_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_14_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_12_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_12_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_12_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_12_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_12_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_12_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_12_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_12_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_12_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_12_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_12_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_12_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_12_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_12_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_12_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_12_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_12_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_12_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_12_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_12_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_12_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_12_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_12_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_13_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_13_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_13_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_13_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_13_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_13_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_13_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_13_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_13_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_13_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_13_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_13_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_13_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_13_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_13_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_13_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_13_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_13_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_13_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_13_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_13_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_13_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_13_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_15_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_15_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_15_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_15_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_15_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_15_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_15_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_15_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_15_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_15_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_15_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_15_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_15_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_15_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_15_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_15_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_15_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_15_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_15_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_15_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_15_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_15_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_15_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_0_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_0_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_0_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_0_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_0_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_0_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_0_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_0_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_0_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_0_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_0_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_0_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_0_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_0_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_0_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_0_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_0_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_0_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_0_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_0_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_0_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_0_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_0_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_1_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_1_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_1_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_1_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_1_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_1_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_1_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_1_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_1_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_1_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_1_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_1_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_1_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_1_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_1_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_1_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_1_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_1_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_1_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_1_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_1_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_1_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_1_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_2_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_2_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_2_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_2_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_2_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_2_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_2_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_2_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_2_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_2_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_2_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_2_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_2_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_2_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_2_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_2_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_2_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_2_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_2_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_2_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_2_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_2_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_2_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_3_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_3_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_3_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_3_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_3_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_3_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_3_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_3_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_3_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_3_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_3_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_3_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_3_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_3_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_3_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_3_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_3_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_3_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_3_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_3_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_3_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_3_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_3_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_4_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_4_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_4_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_4_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_4_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_4_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_4_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_4_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_4_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_4_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_4_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_4_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_4_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_4_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_4_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_4_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_4_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_4_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_4_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_4_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_4_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_4_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_4_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_5_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_5_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_5_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_5_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_5_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_5_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_5_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_5_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_5_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_5_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_5_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_5_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_5_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_5_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_5_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_5_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_5_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_5_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_5_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_5_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_5_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_5_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_5_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_6_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_6_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_6_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_6_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_6_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_6_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_6_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_6_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_6_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_6_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_6_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_6_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_6_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_6_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_6_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_6_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_6_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_6_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_6_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_6_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_6_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_6_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_6_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_7_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_7_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_7_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_7_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_7_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_7_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_7_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_7_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_7_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_7_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_7_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_7_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_7_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_7_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_7_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_7_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_7_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_7_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_7_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_7_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_7_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_7_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_7_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_8_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_8_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_8_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_8_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_8_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_8_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_8_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_8_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_8_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_8_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_8_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_8_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_8_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_8_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_8_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_8_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_8_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_8_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_8_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_8_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_8_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_8_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_8_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_9_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_9_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_9_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_9_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_9_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_9_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_9_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_9_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_9_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_9_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_9_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_9_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_9_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_9_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_9_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_9_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_9_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_9_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_9_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_9_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_9_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_9_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_9_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_10_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_10_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_10_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_10_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_10_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_10_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_10_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_10_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_10_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_10_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_10_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_10_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_10_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_10_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_10_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_10_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_10_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_10_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_10_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_10_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_10_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_10_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_10_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_11_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_11_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_11_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_11_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_11_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_11_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_11_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_11_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_11_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_11_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_11_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_11_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_11_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_11_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_11_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_11_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_11_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_11_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_11_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_11_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_11_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_11_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/RS/stg_elements_11_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/PC/program_counter_31</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/PC/program_counter_30</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/PC/program_counter_29</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/PC/program_counter_28</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/PC/program_counter_27</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/PC/program_counter_26</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/PC/program_counter_25</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/PC/program_counter_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/PC/program_counter_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/PC/program_counter_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/PC/program_counter_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/PC/program_counter_20</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/PC/program_counter_19</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/PC/program_counter_18</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/PC/program_counter_17</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/PC/program_counter_16</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/PC/program_counter_15</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/PC/program_counter_14</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/PC/program_counter_13</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/PC/program_counter_12</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/PC/program_counter_11</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/PC/program_counter_10</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">OZ4/PC/program_counter_9</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">OZ4/mem_ctl/data_r_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;OZ4/ctl/stack_e1_r_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">OZ4/mem_ctl/data_r_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">OZ4_Mandelbrot_top</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">FF/Latch</arg>, which will be removed : <arg fmt="%s" index="4">&lt;OZ4/ctl/stack_e1_r_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2169" delta="old" >HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+</msg>
+
+</messages>
+

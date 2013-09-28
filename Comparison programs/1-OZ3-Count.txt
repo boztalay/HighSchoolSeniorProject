@@ -1,0 +1,8 @@
+addi r1, r0, 1
+add  r2, r0, r0
+
+
+add r2, r2, 1
+x100
+
+102 cycles

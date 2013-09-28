@@ -1,0 +1,163 @@
+V3 80
+FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/ALU.vhd" 2011/05/12.20:38:29 O.40d
+EN work/ALU 1305773207 \
+      FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/ALU.vhd" \
+      PB ieee/std_logic_1164 1296775758 PB ieee/std_logic_arith 1296775759 \
+      PB ieee/STD_LOGIC_UNSIGNED 1296775760 LB UNISIM PH unisim/VCOMPONENTS 1296775759
+AR work/ALU/Behavioral 1305773208 \
+      FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/ALU.vhd" \
+      EN work/ALU 1305773207 CP FPMultiply
+FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/clk_mgt.vhd" 2011/05/16.18:37:15 O.40d
+EN work/clk_mgt 1305773223 \
+      FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/clk_mgt.vhd" \
+      PB ieee/std_logic_1164 1296775758 PB ieee/std_logic_arith 1296775759 \
+      PB ieee/STD_LOGIC_UNSIGNED 1296775760 LB UNISIM PH unisim/VCOMPONENTS 1296775759
+AR work/clk_mgt/Behavioral 1305773224 \
+      FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/clk_mgt.vhd" \
+      EN work/clk_mgt 1305773223
+FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/ctl_unit.vhd" 2011/04/17.20:04:34 O.40d
+EN work/ctl_unit 1305773205 \
+      FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/ctl_unit.vhd" \
+      PB ieee/std_logic_1164 1296775758 PB ieee/std_logic_arith 1296775759 \
+      PB ieee/STD_LOGIC_UNSIGNED 1296775760 LB UNISIM PH unisim/VCOMPONENTS 1296775759
+AR work/ctl_unit/Behavioral 1305773206 \
+      FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/ctl_unit.vhd" \
+      EN work/ctl_unit 1305773205
+FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/data_memory.vhd" 2011/05/12.23:49:48 O.40d
+EN work/data_memory 1305773227 \
+      FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/data_memory.vhd" \
+      PB ieee/std_logic_1164 1296775758 PB ieee/std_logic_arith 1296775759 \
+      PB ieee/STD_LOGIC_UNSIGNED 1296775760 LB UNISIM PH unisim/VCOMPONENTS 1296775759
+AR work/data_memory/Behavioral 1305773228 \
+      FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/data_memory.vhd" \
+      EN work/data_memory 1305773227
+FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/data_stack.vhd" 2011/03/09.00:19:08 O.40d
+EN work/data_stack 1305773209 \
+      FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/data_stack.vhd" \
+      PB ieee/std_logic_1164 1296775758 PB ieee/std_logic_arith 1296775759 \
+      PB ieee/STD_LOGIC_UNSIGNED 1296775760 LB UNISIM PH unisim/VCOMPONENTS 1296775759
+AR work/data_stack/behavioral 1305773210 \
+      FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/data_stack.vhd" \
+      EN work/data_stack 1305773209
+FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/four_dig_7seg.vhd" 2011/04/29.22:55:31 O.40d
+EN work/four_dig_7seg 1305773239 \
+      FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/four_dig_7seg.vhd" \
+      PB ieee/std_logic_1164 1296775758 PB ieee/std_logic_arith 1296775759 \
+      PB ieee/STD_LOGIC_UNSIGNED 1296775760
+AR work/four_dig_7seg/Behavioral 1305773240 \
+      FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/four_dig_7seg.vhd" \
+      EN work/four_dig_7seg 1305773239
+FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/FPMultiply.vhd" 2011/05/01.00:36:49 O.40d
+EN work/FPMultiply 1305773203 \
+      FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/FPMultiply.vhd" \
+      PB ieee/std_logic_1164 1296775758 PB ieee/std_logic_arith 1296775759 \
+      PB ieee/STD_LOGIC_UNSIGNED 1296775760 LB UNISIM PH unisim/VCOMPONENTS 1296775759
+AR work/FPMultiply/Behavioral 1305773204 \
+      FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/FPMultiply.vhd" \
+      EN work/FPMultiply 1305773203
+FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/IO_ctl.vhd" 2011/03/08.22:35:43 O.40d
+EN work/IO_ctl 1305773217 \
+      FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/IO_ctl.vhd" \
+      PB ieee/std_logic_1164 1296775758 PB ieee/std_logic_arith 1296775759 \
+      PB ieee/STD_LOGIC_UNSIGNED 1296775760 LB UNISIM PH unisim/VCOMPONENTS 1296775759
+AR work/IO_ctl/behavioral 1305773218 \
+      FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/IO_ctl.vhd" \
+      EN work/IO_ctl 1305773217
+FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/ipcore_dir/program_memory.vhd" 2011/05/18.22:46:28 O.40d
+EN work/program_memory 1305773229 \
+      FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/ipcore_dir/program_memory.vhd" \
+      PB ieee/std_logic_1164 1296775758
+AR work/program_memory/program_memory_a 1305773230 \
+      FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/ipcore_dir/program_memory.vhd" \
+      EN work/program_memory 1305773229
+FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/memory_controller.vhd" 2011/05/16.18:38:18 O.40d
+EN work/mem_control 1305773233 \
+      FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/memory_controller.vhd" \
+      PB ieee/std_logic_1164 1296775758 PB ieee/std_logic_arith 1296775759 \
+      PB ieee/STD_LOGIC_UNSIGNED 1296775760 LB UNISIM PH unisim/VCOMPONENTS 1296775759
+AR work/mem_control/Behavioral 1305773234 \
+      FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/memory_controller.vhd" \
+      EN work/mem_control 1305773233
+FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/mem_ctl.vhd" 2011/03/22.12:51:44 O.40d
+EN work/memory_control 1305773213 \
+      FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/mem_ctl.vhd" \
+      PB ieee/std_logic_1164 1296775758 PB ieee/std_logic_arith 1296775759 \
+      PB ieee/STD_LOGIC_UNSIGNED 1296775760 LB UNISIM PH unisim/VCOMPONENTS 1296775759
+AR work/memory_control/behavioral 1305773214 \
+      FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/mem_ctl.vhd" \
+      EN work/memory_control 1305773213
+FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/OZ4_Mandelbrot_top.vhd" 2011/05/18.21:14:43 O.40d
+EN work/OZ4_Mandelbrot_top 1305773241 \
+      FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/OZ4_Mandelbrot_top.vhd" \
+      PB ieee/std_logic_1164 1296775758 PB ieee/std_logic_arith 1296775759 \
+      PB ieee/STD_LOGIC_UNSIGNED 1296775760 LB UNISIM PH unisim/VCOMPONENTS 1296775759
+AR work/OZ4_Mandelbrot_top/Behavioral 1305773242 \
+      FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/OZ4_Mandelbrot_top.vhd" \
+      EN work/OZ4_Mandelbrot_top 1305773241 CP clk_mgt CP OZ4_top CP data_memory \
+      CP program_memory CP immediate_memory CP mem_control CP video_controller \
+      CP vga_640x480 CP four_dig_7seg
+FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/OZ4_top.vhd" 2011/03/26.11:05:15 O.40d
+EN work/OZ4_top 1305773225 \
+      FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/OZ4_top.vhd" \
+      PB ieee/std_logic_1164 1296775758 PB ieee/std_logic_arith 1296775759 \
+      PB ieee/STD_LOGIC_UNSIGNED 1296775760 LB UNISIM PH unisim/VCOMPONENTS 1296775759
+AR work/OZ4_top/Behavioral 1305773226 \
+      FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/OZ4_top.vhd" \
+      EN work/OZ4_top 1305773225 CP ctl_unit CP ALU CP data_stack CP return_stack \
+      CP memory_control CP prog_counter CP IO_ctl CP stack_in_MUX CP PC_MUX
+FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/PC_MUX.vhd" 2011/03/22.10:28:08 O.40d
+EN work/PC_MUX 1305773221 \
+      FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/PC_MUX.vhd" \
+      PB ieee/std_logic_1164 1296775758 PB ieee/std_logic_arith 1296775759 \
+      PB ieee/STD_LOGIC_UNSIGNED 1296775760 LB UNISIM PH unisim/VCOMPONENTS 1296775759
+AR work/PC_MUX/Behavioral 1305773222 \
+      FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/PC_MUX.vhd" \
+      EN work/PC_MUX 1305773221
+FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/prog_counter.vhd" 2011/03/09.00:53:12 O.40d
+EN work/prog_counter 1305773215 \
+      FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/prog_counter.vhd" \
+      PB ieee/std_logic_1164 1296775758 PB ieee/std_logic_arith 1296775759 \
+      PB ieee/STD_LOGIC_UNSIGNED 1296775760 LB UNISIM PH unisim/VCOMPONENTS 1296775759
+AR work/prog_counter/Behavioral 1305773216 \
+      FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/prog_counter.vhd" \
+      EN work/prog_counter 1305773215
+FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/return_stack.vhd" 2011/04/13.21:19:25 O.40d
+EN work/return_stack 1305773211 \
+      FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/return_stack.vhd" \
+      PB ieee/std_logic_1164 1296775758 PB ieee/std_logic_arith 1296775759 \
+      PB ieee/STD_LOGIC_UNSIGNED 1296775760 LB UNISIM PH unisim/VCOMPONENTS 1296775759
+AR work/return_stack/behavioral 1305773212 \
+      FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/return_stack.vhd" \
+      EN work/return_stack 1305773211
+FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/stack_in_MUX.vhd" 2011/03/13.15:47:30 O.40d
+EN work/stack_in_MUX 1305773219 \
+      FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/stack_in_MUX.vhd" \
+      PB ieee/std_logic_1164 1296775758 PB ieee/std_logic_arith 1296775759 \
+      PB ieee/STD_LOGIC_UNSIGNED 1296775760 LB UNISIM PH unisim/VCOMPONENTS 1296775759
+AR work/stack_in_MUX/Behavioral 1305773220 \
+      FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/stack_in_MUX.vhd" \
+      EN work/stack_in_MUX 1305773219
+FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/vga_640x480.vhd" 2011/05/13.23:29:02 O.40d
+EN work/vga_640x480 1305773237 \
+      FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/vga_640x480.vhd" \
+      PB ieee/std_logic_1164 1296775758 PB ieee/std_logic_arith 1296775759 \
+      PB ieee/STD_LOGIC_UNSIGNED 1296775760
+AR work/vga_640x480/Behavioral 1305773238 \
+      FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/vga_640x480.vhd" \
+      EN work/vga_640x480 1305773237
+FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/video_controller.vhd" 2011/05/18.21:36:53 O.40d
+EN work/video_controller 1305773235 \
+      FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/video_controller.vhd" \
+      PB ieee/std_logic_1164 1296775758 PB ieee/std_logic_arith 1296775759 \
+      PB ieee/STD_LOGIC_UNSIGNED 1296775760 LB UNISIM PH unisim/VCOMPONENTS 1296775759
+AR work/video_controller/Behavioral 1305773236 \
+      FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Hardware/OZ4_Mandelbrot/video_controller.vhd" \
+      EN work/video_controller 1305773235
+FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Software/FullMandelbrot/FullMandelbrot.vhd" 2011/05/18.21:25:08 O.40d
+EN work/immediate_memory 1305773231 \
+      FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Software/FullMandelbrot/FullMandelbrot.vhd" \
+      PB ieee/std_logic_1164 1296775758 PB ieee/std_logic_arith 1296775759 \
+      PB ieee/STD_LOGIC_UNSIGNED 1296775760 LB UNISIM PH unisim/VCOMPONENTS 1296775759
+AR work/immediate_memory/Behavioral 1305773232 \
+      FL "C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ4_Mandelbrot/Software/FullMandelbrot/FullMandelbrot.vhd" \
+      EN work/immediate_memory 1305773231

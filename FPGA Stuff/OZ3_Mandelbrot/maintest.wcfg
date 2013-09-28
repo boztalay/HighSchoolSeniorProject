@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Ben/Desktop/Folders/Projects/Personal/Senior Project/FPGA Stuff/OZ3_Mandelbrot/OZ3_Sys_Top_TB_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="oz3_sys_top_tb" />
+            <top_module name="std_logic_1164" />
+            <top_module name="std_logic_arith" />
+            <top_module name="std_logic_textio" />
+            <top_module name="std_logic_unsigned" />
+            <top_module name="textio" />
+            <top_module name="vcomponents" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="24" />
+   <wvobject fp_name="/oz3_sys_top_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/oz3_sys_top_tb/rst" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/oz3_sys_top_tb/uut/oz3_ipins" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">oz3_ipins[15:0]</obj_property>
+      <obj_property name="ObjectShortName">oz3_ipins[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/oz3_sys_top_tb/uut/oz3_opins" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">oz3_opins[15:0]</obj_property>
+      <obj_property name="ObjectShortName">oz3_opins[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/oz3_sys_top_tb/uut/oz3_iport" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">oz3_iport[31:0]</obj_property>
+      <obj_property name="ObjectShortName">oz3_iport[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/oz3_sys_top_tb/uut/oz3_oport" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">oz3_oport[31:0]</obj_property>
+      <obj_property name="ObjectShortName">oz3_oport[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/oz3_sys_top_tb/uut/oz3_oport_we" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">oz3_oport_we</obj_property>
+      <obj_property name="ObjectShortName">oz3_oport_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/oz3_sys_top_tb/uut/prog_mem_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">prog_mem_addr[22:0]</obj_property>
+      <obj_property name="ObjectShortName">prog_mem_addr[22:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/oz3_sys_top_tb/uut/prog_mem_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">prog_mem_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">prog_mem_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/oz3_sys_top_tb/uut/data_mem_real_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_mem_real_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_mem_real_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/oz3_sys_top_tb/uut/data_mem_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_mem_out[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_mem_out[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/oz3_sys_top_tb/uut/data_mem_addr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_mem_addr[22:0]</obj_property>
+      <obj_property name="ObjectShortName">data_mem_addr[22:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/oz3_sys_top_tb/uut/data_mem_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_mem_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_mem_in[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/oz3_sys_top_tb/uut/data_mem_we" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">data_mem_we</obj_property>
+      <obj_property name="ObjectShortName">data_mem_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider30" type="divider">
+      <obj_property name="label">New Divider</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/oz3_sys_top_tb/uut/CPU/ID_stage/rfile/write_e" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">write_e</obj_property>
+      <obj_property name="ObjectShortName">write_e</obj_property>
+   </wvobject>
+   <wvobject fp_name="/oz3_sys_top_tb/uut/CPU/ID_stage/rfile/data_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_in[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/oz3_sys_top_tb/uut/CPU/ID_stage/rfile/r_addr1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">r_addr1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">r_addr1[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/oz3_sys_top_tb/uut/CPU/ID_stage/rfile/r_addr2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">r_addr2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">r_addr2[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/oz3_sys_top_tb/uut/CPU/ID_stage/rfile/r_addr3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">r_addr3[4:0]</obj_property>
+      <obj_property name="ObjectShortName">r_addr3[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/oz3_sys_top_tb/uut/CPU/ID_stage/rfile/w_addr1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">w_addr1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">w_addr1[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/oz3_sys_top_tb/uut/CPU/ID_stage/rfile/data_out_1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_out_1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out_1[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/oz3_sys_top_tb/uut/CPU/ID_stage/rfile/data_out_2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_out_2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out_2[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/oz3_sys_top_tb/uut/CPU/ID_stage/rfile/data_out_3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_out_3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">data_out_3[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

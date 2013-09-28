@@ -1,0 +1,13 @@
+Release 13.1 Drc O.40d (nt64)
+Copyright (c) 1995-2011 Xilinx, Inc.  All rights reserved.
+
+Wed May 18 23:00:53 2011
+
+drc -z OZ4_Mandelbrot_top.ncd OZ4_Mandelbrot_top.pcf
+
+WARNING:PhysDesignRules:372 - Gated clock. Clock net
+   display/to_decoder_cmp_eq0000 is sourced by a combinatorial pin. This is not
+   good design practice. Use the CE pin to control the loading of data into the
+   flip-flop.
+DRC detected 0 errors and 1 warnings.  Please see the previously displayed
+individual error or warning messages for more details.
